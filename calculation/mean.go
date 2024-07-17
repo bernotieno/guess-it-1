@@ -1,6 +1,6 @@
 package calc
 
-func Average(nums []float64) float64 {
+func average(nums []float64) float64 {
 	total := 0.0
 	lenNum := len(nums)
 
