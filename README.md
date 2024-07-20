@@ -23,18 +23,24 @@ To use this project, you need to have Go installed. Follow the steps below to ge
 
 
 ## Project Structure
- * `main.go`: The main entry point for the application.
- * `inputhandler/handler.go`: Handles user input and calls calculation functions.
- * `calculation/average.go`: Calculates the average of a slice of float64 numbers.
- * `calculation/range.go`: Calculates the range based on mean and standard deviation.
- * `calculation/standarddev.go`: Calculates the standard deviation from variance.
- * `calculation/variance.go`: Calculates the variance of a slice of float64 numbers.
+ * `student/main.go`: The main entry point for the application.
+ * `student/inputhandler/handler.go`: Handles user input and calls calculation functions.
+ * `student/calculation/average.go`: Calculates the average of a slice of float64 numbers.
+ * `student/calculation/range.go`: Calculates the range based on mean and standard deviation.
+ * `student/calculation/standarddev.go`: Calculates the standard deviation from variance.
+ * `student/calculation/variance.go`: Calculates the variance of a slice of float64 numbers.
 
 ## Usage
-To run the project, use the provided bash script:
+
+1. Change the permission of the script file to executable:
 
 ```sh
-./run.sh
+chmod +x ./student/script.sh
+```
+2. To run the project, use the provided bash script:
+
+```sh
+./student/script.sh
 ```
 Enter numbers one by one and press Enter. The program will calculate and print the range after each entry. To exit, simply press Enter without typing a number.
 
