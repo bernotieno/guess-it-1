@@ -7,6 +7,7 @@ Guess It 1 is a command-line tool written in Go that reads numbers from standard
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
+- [Testing](#testing)
 - [Contributing](#contributing)
 - [Author](#author)
 
@@ -36,6 +37,15 @@ To run the project, use the provided bash script:
 ./run.sh
 ```
 Enter numbers one by one and press Enter. The program will calculate and print the range after each entry. To exit, simply press Enter without typing a number.
+
+## Testing
+**To test the project, follow these steps:**
+
+ 1. Download the test [zip file](https://assets.01-edu.org/guess-it/guess-it-dockerized.zip) containing the tester.
+ 2. Extract the zip file in the root directory of the project.
+ 3. Move the student/ folder into the extracted directory.
+ 4. Follow the instructions provided in the tester's README file.
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
