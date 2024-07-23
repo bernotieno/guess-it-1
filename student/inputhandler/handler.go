@@ -16,7 +16,7 @@ func HandleInput() {
 		input := scanner.Text()
 		num, err := strconv.ParseFloat(input, 64)
 		if err != nil {
-			fmt.Println("Invalid input. Please enter a valid number.")
+			fmt.Println(err)
 			continue
 		}
 
